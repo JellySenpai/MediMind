@@ -1,0 +1,2 @@
+# MediMind
+Small Portfolio app
