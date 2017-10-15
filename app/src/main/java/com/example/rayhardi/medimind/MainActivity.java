@@ -32,16 +32,16 @@ public class MainActivity extends AppCompatActivity implements DBWorkerDelegate 
     @Override
     public void taskFinished(boolean isSuccess, JSONObject returnJSON) {
         Log.d(TAG, returnJSON.toString());
-//        try {
-//
-//            JSONArray temp = returnJSON.getJSONArray("medication");
-//            for (int i = 0;i<temp.length();i++)
-//            {
-//                JSONObject tempMedication = temp.getJSONObject(i);
-//                medicationList.add(new Medication(tempMedication));
-//            }
-//            int x = 0;
-//        }
-//        catch (JSONException ex){ Log.d(TAG, "Failed eto create medication data set");}
+        try {
+
+            JSONArray temp = returnJSON.getJSONArray("medication");
+            for (int i = 0;i<temp.length();i++)
+            {
+                JSONObject tempMedication = temp.getJSONObject(i);
+                medicationList.add(new Medication(tempMedication));
+            }
+            int x = 0;
+        }
+        catch (JSONException ex){ Log.d(TAG, "Failed eto create medication data set");}
     }
 }
