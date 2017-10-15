@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "240237191558",
+    "firebase_url": "https://medimind-6aa12.firebaseio.com",
+    "project_id": "medimind-6aa12",
+    "storage_bucket": "medimind-6aa12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240237191558:android:e946bc5a2fb5e52c",
+        "android_client_info": {
+          "package_name": "com.example.rayhardi.medimind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240237191558-2n6ktoq7mfao7rm8ji0tvp2ij43n2iqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rayhardi.medimind",
+            "certificate_hash": "34c9135c2ed78ad56823ad651442be90127c3581"
+          }
+        },
+        {
+          "client_id": "240237191558-4jeqmkjo3d7g95o8pkraee5brp26dnkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-aZkp59nCWBYKQhZn3c0QFQDCtHP8JBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240237191558-4jeqmkjo3d7g95o8pkraee5brp26dnkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
